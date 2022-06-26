@@ -7,7 +7,7 @@ while chance < 5:
     guess = int(input("Guess: "))
     if guess == number:
         print("You guessed it!")
-        break
+        exit()
     elif guess > number:
         print("Too high")
     else:
